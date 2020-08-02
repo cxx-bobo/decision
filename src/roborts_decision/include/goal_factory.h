@@ -53,6 +53,22 @@ namespace roborts_decision{
       chassis_executor_ptr_->Execute(buff_goal);
     }
 
+    void BuffGoal(int kind_of_buff) {
+      geometry_msgs::PoseStamped buff_goal;
+      buff_goal.header.frame_id = "map";
+      buff_goal.pose.position.x =0;
+      buff_goal.pose.position.y =0;
+      buff_goal.pose.position.z =0;      
+      tf::Quaternion quaternion = tf::createQuaternionFromRPY(0,0,0);  
+      buff_goal.pose.orientation.x = quaternion.x();
+      buff_goal.pose.orientation.y = quaternion.y();
+      buff_goal.pose.orientation.z = quaternion.z();
+      buff_goal.pose.orientation.w = quaternion.w();
+      blackboard_ptr_->BuffPose(kind_of_buff);  
+      buff_goal = blackboard_ptr_->GetBuffPose();
+      chassis_executor_ptr_->Execute(buff_goal);
+    }
+
     //受到攻击后转向合适的方向
     void TurnToDetectedDirection() {      
       if(blackboard_ptr_->IfTurn()){
