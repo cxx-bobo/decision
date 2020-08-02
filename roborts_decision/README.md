@@ -5,52 +5,57 @@
 ## 依赖工具、软硬件环境
 ## 编译、安装方式
 ## 文件目录结构及文件用途说明
-├── pictures
-│   ├── table1_2.jpg
-│   ├── table1.jpg
-│   ├── table2.jpg
-│   ├── table3.jpg
-│   └── tree.jpg
-├── roborts_decision
-│   ├── action_node
-│   │   ├── BackAwayAction.h
-│   │   ├── BackBootArea.h
-│   │   ├── ChaseAction.h
-│   │   ├── ChassisLimited.h
-│   │   ├── DeckChaseAction.h
-│   │   ├── DefendAction.h
-│   │   ├── EscapeAction.h
-│   │   ├── FollowAction.h
-│   │   ├── FrozeAction.h
-│   │   ├── GainBloodAction.h
-│   │   ├── GainBulletAction.h
-│   │   ├── GimbalLimited.h
-│   │   ├── readme.md
-│   │   ├── SearchAction.h
-│   │   ├── TurnToDetectedDirection.h
-│   │   └── WaitBuffRefresh.h
-│   ├── behavior_test.cpp
-│   ├── blackboard
-│   │   ├── blackboard.h
-│   │   └── topic_name.h
-│   ├── CMakeLists.txt
-│   ├── config
-│   │   ├── buffposition.yaml
-│   │   ├── decision.prototxt
-│   │   ├── decision.yaml
-│   │   └── topic_name.prototxt
-│   ├── executor
-│   │   ├── chassis_executor.cpp
-│   │   ├── chassis_executor.h
-│   │   ├── gimbal_executor.cpp
-│   │   └── gimbal_executor.h
-│   ├── icra_decision_node.cpp
-│   ├── include
-│   │   ├── goal_factory.h
-│   │   └── redme.md
-│   ├── package.xml
-│   └── README.md
-└── roborts_msgs
+>pictures
+>>table1_2.jpg
+>>table1.jpg
+>>table2.jpg
+>>table3.jpg
+>>tree.jpg
+>roborts_decision
+>>action_node
+>>>BackAwayAction.h
+>>>BackBootArea.h
+>>>ChaseAction.h
+>>>ChassisLimited.h
+>>>DeckChaseAction.h
+>>>DefendAction.h
+>>>EscapeAction.h
+>>>FollowAction.h
+>>>FrozeAction.h
+>>>GainBloodAction.h
+>>>GainBulletAction.h
+>>>GimbalLimited.h
+>>>readme.md
+>>>SearchAction.h
+>>>TurnToDetectedDirection.h
+>>>WaitBuffRefresh.h
+>>behavior_test.cpp
+>>blackboard
+>>>blackboard.h
+>>>topic_name.h
+>>CMakeLists.txt
+>>config
+>>>buffposition.yaml
+>>>decision.prototxt
+>>>decision.yaml
+>>>topic_name.prototxt
+>>executor
+>>>chassis_executor.cpp
+>>>chassis_executor.h
+>>>gimbal_executor.cpp
+>>>gimbal_executor.h
+>>icra_decision_node.cpp
+>>include
+>>>goal_factory.h
+>>>redme.md
+>>package.xml
+>>README.md
+>roborts_msgs
+>>action
+>>CMakeLists.txt
+>>msg
+>>package.xml
+>>srv
 
 ## 软件与硬件的系统框图,数据流图
 ## 原理介绍与理论支持分析
