@@ -24,13 +24,13 @@ FollowAction.h<br />
 >>>SearchAction.h<br />
 >>>TurnToDetectedDirection.h<br />
 >>>WaitBuffRefresh.h<br />
-***
+   ***
 >>behavior_test.cpp<br />
 >>blackboard<br />
 >>>blackboard.h<br />
 >>>topic_name.h<br />
 >>CMakeLists.txt<br />
-***
+   ***
 >>config<br />
 >>>buffposition.yaml<br />
 >>>decision.prototxt<br />
