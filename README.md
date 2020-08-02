@@ -1,11 +1,10 @@
-# robots_decision
 ## 软件功能介绍
 - 此部分
 ## 软件效果展示。需要体现整体项目的创新性和优势,结合可视化数据(例如视频网址,gif 图,测试图表等)对最终效果进行展示与定量分析
 ## 依赖工具、软硬件环境
 ## 编译、安装方式
 ## 文件目录结构及文件用途说明
->pictures                        存放用于本说明文件的图片<br />
+>pictures   存放用于本说明文件的图片<br />
 >roborts_decision                
 >>action_node
 >>>BackAwayAction.h<br />
