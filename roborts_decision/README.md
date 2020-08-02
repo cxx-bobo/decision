@@ -5,7 +5,7 @@
 ## 依赖工具、软硬件环境
 ## 编译、安装方式
 ## 文件目录结构及文件用途说明
->pictures
+>pictures<br />
 >roborts_decision
 >>action_node
 >>>BackAwayAction.h<br />
@@ -16,42 +16,47 @@ DeckChaseAction.h<br />
 DefendAction.h<br />
 EscapeAction.h<br />
 FollowAction.h<br />
->>>FrozeAction.h<br />
->>>GainBloodAction.h<br />
->>>GainBulletAction.h<br />
->>>GimbalLimited.h<br />
->>>readme.md<br />
->>>SearchAction.h<br />
->>>TurnToDetectedDirection.h<br />
->>>WaitBuffRefresh.h<br />
+FrozeAction.h<br />
+GainBloodAction.h<br />
+GainBulletAction.h<br />
+GimbalLimited.h<br />
+readme.md<br />
+SearchAction.h<br />
+TurnToDetectedDirection.h<br />
+WaitBuffRefresh.h<br />
   
   
->>behavior_test.cpp<br />
 >>blackboard<br />
 >>>blackboard.h<br />
 >>>topic_name.h<br />
 >>CMakeLists.txt<br />
-   ***
+  
+  
 >>config<br />
 >>>buffposition.yaml<br />
 >>>decision.prototxt<br />
 >>>decision.yaml<br />
 >>>topic_name.prototxt<br />
-***
+  
+  
 >>executor<br />
 >>>chassis_executor.cpp<br />
 >>>chassis_executor.h<br />
 >>>gimbal_executor.cpp<br />
 >>>gimbal_executor.h<br />
-***
->>icra_decision_node.cpp<br />
+  
+  
 >>include<br />
 >>>goal_factory.h<br />
 >>>redme.md<br />
-***
+  
+  
+>>icra_decision_node.cpp<br />
+>>behavior_test.cpp<br />
 >>package.xml<br />
 >>README.md<br />
-***
+  
+  
 >roborts_msgs<br />
 >>action<br />
 >>CMakeLists.txt<br />
