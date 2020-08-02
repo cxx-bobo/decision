@@ -6,18 +6,13 @@
 ## 编译、安装方式
 ## 文件目录结构及文件用途说明
 >pictures
->>table1_2.jpg
->>table1.jpg
->>table2.jpg
->>table3.jpg
->>tree.jpg
 >roborts_decision
 >>action_node
 >>>BackAwayAction.h
->>>BackBootArea.h
->>>ChaseAction.h
->>>ChassisLimited.h
->>>DeckChaseAction.h
+  >>>BackBootArea.h
+  >>>ChaseAction.h
+  >>>ChassisLimited.h
+  >>>DeckChaseAction.h
 >>>DefendAction.h
 >>>EscapeAction.h
 >>>FollowAction.h
