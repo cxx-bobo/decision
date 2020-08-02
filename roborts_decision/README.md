@@ -5,8 +5,8 @@
 ## 依赖工具、软硬件环境
 ## 编译、安装方式
 ## 文件目录结构及文件用途说明
->pictures<br />
->roborts_decision
+>pictures                        存放用于本说明文件的图片<br />
+>roborts_decision                
 >>action_node
 >>>BackAwayAction.h<br />
 BackBootArea.h<br />
