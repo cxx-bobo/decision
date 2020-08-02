@@ -9,13 +9,13 @@
 >roborts_decision
 >>action_node
 >>>BackAwayAction.h
-    >>>BackBootArea.h
-    >>>ChaseAction.h
-    >>>ChassisLimited.h
-    >>>DeckChaseAction.h
+    BackBootArea.h
+    ChaseAction.h
+    ChassisLimited.h
+    DeckChaseAction.h
 >>>DefendAction.h
->>>EscapeAction.h
->>>FollowAction.h
+    EscapeAction.h
+        FollowAction.h
 >>>FrozeAction.h
 >>>GainBloodAction.h
 >>>GainBulletAction.h
