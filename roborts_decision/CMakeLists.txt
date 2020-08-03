@@ -109,7 +109,7 @@ target_link_libraries(icra_decision_node
  add_executable(pos_reciever_node
    ${DecisionProtoHds}
    ${DecisionProtoSrc}
-   pos_reciever.cpp
+   ./interact/pos_reciever.cpp
    )
  
  target_link_libraries(pos_reciever_node
