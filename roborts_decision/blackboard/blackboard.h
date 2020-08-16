@@ -39,7 +39,6 @@
 #include "../executor/gimbal_executor.h"
 #include "sdk.h"
 #include "gimbal.h"
-#include "topic_name.h"
 
 
 namespace roborts_decision{
