@@ -155,6 +155,7 @@ class MutualBoard{
             ROS_INFO("mutual node listening ...");
         }
         // socket 收发
+        // 收发的主要函数，声明对象后执行此函数
         void ExchangeData(){
             FD_ZERO(&read_fd);
             FD_ZERO(&write_fd);
