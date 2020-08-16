@@ -107,13 +107,13 @@
             ├── ShootCmd.srv
             └── SwingDefend.srv
 
-- [action_node](./action_node/readme.md) 包含机器人可执行的各种动作行为, 包括一系列攻击行为、防御行为、加成和惩罚响应行为和准备行为  
+- [action_node](./action_node) 包含机器人可执行的各种动作行为, 包括一系列攻击行为、防御行为、加成和惩罚响应行为和准备行为  
 
-- [blackboard](./blackboard/readme.md)  黑板类，负责收集、处理和分发场上可获得的各种信息。包括： 各机器人的位置、各机器人自身的健康参数和场上各类决策时需要用到的参数等
+- [blackboard](./blackboard)  黑板类，负责收集、处理和分发场上可获得的各种信息。包括： 各机器人的位置、各机器人自身的健康参数和场上各类决策时需要用到的参数等
 
-- [interact](./interact/readme.md)  负责两级交互的模快，使用套接字向双同伴机器人发送自身的相关信息并且与场外哨岗通信获取哨岗识别的结果  
+- [interact](./interact)  负责两级交互的模快，使用套接字向双同伴机器人发送自身的相关信息并且与场外哨岗通信获取哨岗识别的结果  
 
-- [include](./include/readme.md) 包含行为树必需的头文件，这里主要放了goal_factory.h  
+- [include](./include) 包含行为树必需的头文件，这里主要放了goal_factory.h  
 
 - [behavior_test.cpp](./behavior_test.cpp)  这个文件是测试各行为运行情况的节点，通过它可以单独执行指定的节点，观察运行情况  
 
