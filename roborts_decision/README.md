@@ -15,7 +15,8 @@
 
 ## 编译、安装方式
 
-使用ros提供的catkin_make进行全局编译，单独编译本功能包：catkin_make --pkg roborts_decision
+使用ros提供的catkin_make进行全局编译  
+单独编译本功能包：catkin_make --pkg roborts_decision
 
 ## 文件目录结构及文件用途说明
 
@@ -110,19 +111,22 @@
             ├── ShootCmd.srv
             └── SwingDefend.srv
 
-- [action_node](./roborts_decision/action_node/readme.md) 包含机器人可执行的各种动作行为, 包括一系列攻击行为、防御行为、加成和惩罚响应行为和准备行为  
+### 文件用途说明
 
-- [blackboard](./roborts_decision/blackboard/readme.md)  黑板类，负责收集、处理和分发场上可获得的各种信息。包括： 各机器人的位置、各机器人自身的健康参数和场上各类决策时需要用到的参数等
+- [action_node](./action_node) 包含机器人可执行的各种动作行为, 包括一系列攻击行为、防御行为、加成和惩罚响应行为和准备行为  
 
-- [interact](./roborts_decision/interact/readme.md)  负责两级交互的模快，使用套接字向双同伴机器人发送自身的相关信息并且与场外哨岗通信获取哨岗识别的结果  
+- [blackboard](./blackboard)  黑板类，负责收集、处理和分发场上可获得的各种信息。包括： 各机器人的位置、各机器人自身的健康参数和场上各类决策时需要用到的参数等
 
-- [include](./roborts_decision/include/readme.md) 包含行为树必需的头文件，这里主要放了goal_factory.h  
+- [interact](./interact)  负责两级交互的模快，使用套接字向双同伴机器人发送自身的相关信息并且与场外哨岗通信获取哨岗识别的结果  
 
-- [behavior_test.cpp](./roborts_decision/behavior_test.cpp)  这个文件是测试各行为运行情况的节点，通过它可以单独执行指定的节点，观察运行情况  
+- [include](./include) 包含行为树必需的头文件，这里主要放了goal_factory.h  
 
-- [icra_decision_node.cpp](./roborts_decision/icra_decision_node.cpp) 决策节点，其中负责搭建好行为树并且将其运行起来，实施决策
+- [behavior_test.cpp](./behavior_test.cpp)  这个文件是测试各行为运行情况的节点，通过它可以单独执行指定的节点，观察运行情况  
+
+- [icra_decision_node.cpp](./icra_decision_node.cpp) 决策节点，其中负责搭建好行为树并且将其运行起来，实施决策
 
 ## 软件与硬件的系统框图,数据流图
+TODO
 
 **行为树结构图：**
 ![image](https://github.com/cxx-bobo/decision/blob/master/pictures/tree.jpg)  
@@ -138,8 +142,8 @@
 
 ## 原理介绍与理论支持分析
 ## 软件架构或层级图--------------------------------------?
-## ~~代码规范------~~
-## 是否存在开源协议--------------------------------------？
+## ~~ 代码规范 ------~~
+## 是否存在开源协议 --------------------------------------？
 ## ~~函数、变量命名是否规范、统一------~~
 ## ~~关键功能函数、变量是否存在清晰的注释------~~
 ## 整体可编译可运行,容易测试,包含不同情况下的测试脚本或涵盖集成测试
