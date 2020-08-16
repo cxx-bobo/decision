@@ -1117,7 +1117,7 @@ namespace roborts_decision{
         return false;
       }
 
-      //更型云台控制权
+      //更新云台控制权
       void UpdateGimcontrol(){
         gimcontrol.decision_control = is_swing_;
       }
@@ -1465,7 +1465,6 @@ namespace roborts_decision{
       std::shared_ptr<ChassisExecutor> chassis_executor_ptr_;
       std::shared_ptr<GimbalExecutor>  gimbal_executor_ptr_;
       
-
       //gimbal publisher
       ros::Publisher gim_control_pub;
       roborts_msgs::GimbalControl gimcontrol;  
