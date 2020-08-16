@@ -937,7 +937,7 @@ namespace roborts_decision{
         }*/
       }
 
-      //是否到达搜索目标
+      //是否到达搜索目标地
       bool SearchPosArrived(){
         ROS_INFO("is search pose arrived");
         int s_count = GetSearchCount();
