@@ -119,20 +119,19 @@
 
 - [icra_decision_node.cpp](./roborts_decision/icra_decision_node.cpp) 决策节点，其中负责搭建好行为树并且将其运行起来，实施决策
 
-
 ## 软件与硬件的系统框图,数据流图
 
 **行为树结构图：**
-![image](./pictures/tree.jpg)  
+![image](https://github.com/cxx-bobo/decision/blob/master/pictures/tree.jpg)  
 
 **动作节点介绍：**
-![image](./pictures/table1.jpg)
+![image](https://github.com/cxx-bobo/decision/blob/master/pictures/table1.jpg)
 
 **选择节点介绍：**
-![image](./pictures/table2.jpg)
+![image](https://github.com/cxx-bobo/decision/blob/master/pictures/table2.jpg)
 
 **条件节点介绍**
-![image](./pictures/table3.jpg)
+![image](https://github.com/cxx-bobo/decision/blob/master/pictures/table3.jpg)
 
 ## 原理介绍与理论支持分析
 ## 软件架构或层级图--------------------------------------?
