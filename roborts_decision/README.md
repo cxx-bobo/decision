@@ -128,6 +128,8 @@
 
 - [include](./include) 包含行为树必需的头文件，这里主要放了goal_factory.h  
 
+- [roborts_msgs](../roborts_msgs/README.md)
+
 - [behavior_test.cpp](./behavior_test.cpp)  这个文件是测试各行为运行情况的节点，通过它可以单独执行指定的节点，观察运行情况  
 
 - [icra_decision_node.cpp](./icra_decision_node.cpp) 决策节点，其中负责搭建好行为树并且将其运行起来，实施决策
@@ -138,6 +140,7 @@
 - 数据流图：
 
 ![image](https://github.com/cxx-bobo/decision/blob/master/pictures/DataFlow2.png)
+![image](../pictures/DataFlow.png)
 
 
 ## 原理介绍与理论支持分析
