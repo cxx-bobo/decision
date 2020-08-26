@@ -60,11 +60,8 @@ namespace roborts_decision{
                 return;
             }
         }
-
-
-
     }; // class WaitBuffRefresh
-} //namespace roborts_decision
+} // namespace roborts_decision
 
 #endif
 //ROBORTS_DECISION_WAITBUFFREFRESH_H
