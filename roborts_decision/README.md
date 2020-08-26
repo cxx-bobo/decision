@@ -116,6 +116,7 @@
             ├── ShootCmd.srv
             └── SwingDefend.srv
 
+
 ### 文件用途说明
 
 - [action_node](./action_node) 包含机器人可执行的各种动作行为, 包括一系列攻击行为、防御行为、加成和惩罚响应行为和准备行为  
@@ -130,7 +131,13 @@
 
 - [icra_decision_node.cpp](./icra_decision_node.cpp) 决策节点，其中负责搭建好行为树并且将其运行起来，实施决策
 
+
 ## 软件与硬件的系统框图,数据流图
+
+- 数据流图：
+
+![image](https://github.com/cxx-bobo/decision/blob/master/pictures/DataFlow2.png)
+
 
 ## 原理介绍与理论支持分析
 
@@ -149,7 +156,7 @@
 - 根据比赛规则，我们对场上探测到的状态进行了细致的分类，并且针对每一种条件的具体情况设计了对应的响应行为，包括但不限于搜寻敌人、追击、逃跑等行为。同时，为了应对随时可能遇到的加成和奖励情况，我们专门为之设计了相应的节点。综合来看，已经足够应对场上会发生的几乎所有情况。
 所有节点，根据不同的条件，将会执行相应的动作，因此可通过行为树实现比赛中的机器人自主决策。
 
-**行为树结构图：**
+- 行为树结构图：
 ![image](https://github.com/cxx-bobo/decision/blob/master/pictures/tree.jpg)  
 
 **动作节点介绍：**
