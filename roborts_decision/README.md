@@ -140,7 +140,6 @@
 - 数据流图：
 
 ![image](https://github.com/cxx-bobo/decision/blob/master/pictures/DataFlow2.png)
-![image](../pictures/DataFlow.png)
 
 
 ## 原理介绍与理论支持分析
